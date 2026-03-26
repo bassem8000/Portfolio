@@ -1,35 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mon portfolio</title>
+    <title>Mon Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="header-hero">
-            <a href="#">A propos de moi</a>
-            <a href="#">Projets informatiques</a>
-            <a href="#">Parcours scolaire</a>
-            <a href="#">Contact</a>
-        </div>
+        <nav class="header-hero">
+            <a href="#about">À propos de moi</a>
+            <a href="#projects">Projets informatiques</a>
+            <a href="#education">Parcours scolaire</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <div class="hero">
-
-        <div class="photo-profile">
-            <img src="1760964578483.jpeg" alt="Photo de profil" width="400" height="400">
-        </div>
-
+    <section class="hero" id="home">
         <div class="hero-content">
-            <h2>test</h2>
-            <p>Découvrez mes projets et compétences</p>
+            <h1>Bassem BACHA </h1>
+            <p>Bonjour, je suis alternant en premiere année de BTS SIO SLAM, voici mon portfolio sur lequel vous pouvez découvrir mes projets et compétences.</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
         </div>
+        <div class="photo-profile">
+            <img src="1760964578483.jpeg" alt="Photo de profil">
+        </div>
+    </section>
 
-    </div>
+    <section class="container" id="about">
+        <h2>À propos de moi</h2>
+        <p>Passionné par l'informatique et le développement, je crée des solutions web modernes et efficaces. J'aime apprendre de nouvelles technologies et relever des défis techniques.</p>
+    </section>
 
+    <section class="container" id="projects">
+        <h2>Mes Projets Informatiques</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Projet 1</h3>
+                <p>placeholder</p>
+            </div>
+            <div class="project-card">
+                <h3>Projet 2</h3>
+                <p>placeholder</p>
+            </div>
+            <div class="project-card">
+                <h3>Projet 3</h3>
+                <p>placeholder</p>
+            </div>
+        </div>
+    </section>
 
-    
+    <section class="container" id="education">
+        <h2>Mon Parcours Scolaire</h2>
+        <ul class="timeline">
+            <li><strong>2025 - Présent :</strong>BTS SIO</li>
+            <li><strong>2023 - 2024 :</strong> Licence universitaire</li>
+            <li><strong>2023 :</strong> Baccalauréat Général</li>
+        </ul>
+    </section>
+
+    <section class="container" id="contact">
+        <h2>Contactez-moi</h2>
+        <a href="mailto:bassem.bacha.pro@gmail.com" class="btn">M'envoyer un email</a>
+    </section>
+
+    <footer>
+        <p>Bassem BACHA 2026 </p>
+    </footer>
 </body>
 </html>
