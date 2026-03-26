@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to top left, #C3DBC5, #E8DCB9);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-hero {
+    background-color: rosybrown;
+    margin: 0px;
+    padding: 10px;
+    shape-margin: 10px  ;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.hero {
+    margin: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    transition: all 0.3s ease-out;
+}
+
+.hero:hover {
+    color: #ff67bb;
+}
+
+.photo-profile {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    border: #ffffff solid 2px;
+    border-radius: 10%;
+    overflow: hidden;
+}
