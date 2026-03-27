@@ -79,8 +79,7 @@ header {
     background-color: var(--c4);
     position: sticky;
     top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(77, 77, 77, 0.37);
 }
 
 .header-hero {
@@ -120,7 +119,6 @@ header {
 
 .hero-content {
     flex: 1;
-    min-width: 300px;
     text-align: center;
 }
 
@@ -170,8 +168,6 @@ header {
     cursor: pointer;
     border: none;
     font-size: 1em;
-    font-family: inherit;
-    transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -193,8 +189,6 @@ header {
     font-size: 2.2em;
     margin-bottom: 30px;
     color: var(--c4);
-    text-transform: uppercase;
-    letter-spacing: 1px;
     transition: color 0.3s ease;
 }
 
