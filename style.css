@@ -19,7 +19,7 @@ html {
 body {
     background-image: linear-gradient(to top left, var(--green), var(--beige));
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
     color: var(--dark);
     line-height: 1.6;
 }
@@ -119,14 +119,14 @@ header {
     box-shadow: 0 6px 12px rgba(13, 27, 30, 0.2);
 }
 
-.container {
+.conteneur {
     max-width: 1000px;
     margin: 0 auto;
     padding: 60px 20px;
     text-align: center;
 }
 
-.container h2 {
+.conteneur h2 {
     font-size: 2.2em;
     margin-bottom: 30px;
     color: var(--blue);
@@ -134,13 +134,13 @@ header {
     letter-spacing: 1px;
 }
 
-.project-grid {
+.conteneur-projet {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
 
-.project-card {
+.project-carte {
     background: rgba(255, 255, 255, 0.5);
     padding: 25px;
     border-radius: 15px;
@@ -149,17 +149,18 @@ header {
     border: 2px solid transparent;
 }
 
-.project-card:hover {
+.project-carte:hover {
     transform: translateY(-10px);
+    transform: scale(1.05);
     border: 2px solid var(--pink);
 }
 
-.project-card h3 {
+.project-carte h3 {
     margin-bottom: 10px;
     color: var(--dark);
 }
 
-.timeline {
+.liste_ecole {
     list-style: none;
     text-align: left;
     max-width: 600px;
@@ -169,13 +170,13 @@ header {
     border-radius: 15px;
 }
 
-.timeline li {
+.liste_ecole li {
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid var(--blue);
 }
 
-.timeline li:last-child {
+.liste_ecole li:last-child {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -187,6 +188,10 @@ footer {
     text-align: center;
     padding: 30px 20px;
     margin-top: 40px;
+}
+
+.mode_sombre{
+    background-image: linear-gradient(to top left, var(--dark), var(--blue));
 }
 
 @media (max-width: 768px) {
